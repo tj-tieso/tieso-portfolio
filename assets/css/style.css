@@ -121,7 +121,7 @@ section p {
   width: fit-content;
 }
 
-.apps {
+.my-work {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,7 +129,7 @@ section p {
   z-index: 3;
 }
 
-.apps h3 {
+.my-work h3 {
   display: flex;
   justify-content: flex-end;
   background: var(--accent-secondary);
@@ -137,14 +137,14 @@ section p {
   padding-right: 10px;
 }
 
-.apps img {
+.my-work img {
   width: 100%;
   max-height: 50%;
   border: 2px solid var(--accent-secondary);
   margin-top: 10px;
 }
 
-.apps:hover {
+.my-work:hover {
   width: 100.5%;
   opacity: 0.8;
 }
