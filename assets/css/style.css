@@ -98,7 +98,7 @@ header h1 a {
 /* Style for ALL Section tags */
 section {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
   padding: 20px;
 }
 
@@ -115,7 +115,7 @@ section p {
 }
 
 /* START My work */
-#my-work-header {
+.my-work h2 {
   border-right: none;
   border-bottom: 2px solid var(--accent-primary);
   width: fit-content;
@@ -134,41 +134,60 @@ section p {
   justify-content: flex-end;
   background: var(--accent-secondary);
   color: var(--secondary);
+  font-style: normal;
   padding-right: 10px;
 }
 
-.my-work img {
-  width: 100%;
-  max-height: 50%;
+.secondary-app img {
+  width: 485px;
+  height: 100px;
+  object-fit: cover;
   border: 2px solid var(--accent-secondary);
   margin-top: 10px;
 }
 
-.my-work:hover {
-  width: 100.5%;
-  opacity: 0.8;
+#image-app2 {
+  object-position: 0px 10%;
 }
 
-/* .showcase-app:hover {
-  width: 100.5%;
-  opacity: 0.8;
-} */
+#image-app3 {
+  object-position: 0px 70%;
+}
+
+#image-app4 {
+  object-position: 0px 30%;
+}
 
 .showcase-app img {
-  width: 100%;
+  width: 485px;
+  border: 2px solid var(--accent-secondary);
+  margin-top: 10px;
 }
-
-/* .showcase-app h3 {
-  display: flex;
-  justify-content: flex-end;
-  background: var(--accent-secondary);
-  color: var(--secondary);
-  padding-right: 10px;
-} */
 
 /* END MY Work */
 
 /* START Contact Me */
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--accent-secondary);
+  color: var(--secondary);
+  border-top: 4px solid var(--accent-primary);
+}
+
+.contact-info-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-info-content a {
+  display: flex;
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 1.75rem;
+  padding: 10px;
+}
 /* END Contact Me */
 
 /* START Media Queries */
