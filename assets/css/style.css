@@ -96,6 +96,7 @@ header h1 a {
 /* END Header */
 
 /* Style for ALL Section tags */
+
 section {
   display: flex;
   align-items: center;
@@ -191,4 +192,32 @@ section p {
 /* END Contact Me */
 
 /* START Media Queries */
+
+/* Large Smart Phone */
+@media screen and (min-width: 786) {
+}
+
+/* Tablets  */
+@media screen and (min-width: 992px) {
+  .my-work {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .my-work h2 {
+    border-bottom: none;
+    width: 100px;
+  }
+
+  .apps {
+    padding-left: 10px;
+    border-left: 2px solid var(--accent-primary);
+  }
+
+  .apps img {
+    align-items: center;
+  }
+}
+
 /* END Media Queries */
