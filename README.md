@@ -33,6 +33,4 @@ GIVEN I need to sample a potential employee's previous work
 
 ### CONTRIBUTION
 
-Menu Button created by :<a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Freepik - Flaticon</a>
-
 Forged in 🔥🔥🔥🔥 by your Dread Lord and Master Trev(or)
