@@ -1,4 +1,5 @@
 # tieso-portfolio
+https://tj-tieso.github.io/tieso-portfolio/
 
 ## USER STORY
 
